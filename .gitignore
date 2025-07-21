@@ -1,0 +1,58 @@
+# Ambientes Virtuais
+/venv/
+/env/
+/.venv/
+/.env/
+/virtualenv/
+/venv.bak/
+/env.bak/
+
+# Arquivo de variáveis de ambiente
+# Contém senhas e chaves secretas! NUNCA adicione ao Git.
+.env
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Pasta de instância do Flask
+# Pode conter configurações e o banco de dados de desenvolvimento
+/instance/
+
+# Arquivos de banco de dados SQLite
+*.sqlite3
+*.db
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Relatórios de testes e cobertura de código
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+pytest-report.html
+
+# Artefatos de build e distribuição
+/build/
+/dist/
+/downloads/
+/eggs/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Arquivos de notebook Jupyter
+.ipynb_checkpoints
